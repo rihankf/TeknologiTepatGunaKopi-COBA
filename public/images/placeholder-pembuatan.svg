@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#FFF7ED"/>
+  <circle cx="200" cy="160" r="80" fill="#FDBA74" opacity="0.3"/>
+  <ellipse cx="200" cy="160" rx="60" ry="20" fill="#F97316" opacity="0.6"/>
+  <path d="M140 160 Q140 220 200 220 Q260 220 260 160" fill="none" stroke="#EA580C" stroke-width="3"/>
+  <path d="M170 220 L170 250 M230 220 L230 250" stroke="#EA580C" stroke-width="3"/>
+  <rect x="160" y="245" width="80" height="8" rx="4" fill="#EA580C" opacity="0.5"/>
+  <text x="200" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9A3412" font-weight="bold">Alat Pembuatan</text>
+  <text x="200" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#C2410C">Gula Kelapa</text>
+</svg>
