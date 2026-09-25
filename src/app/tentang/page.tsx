@@ -48,7 +48,7 @@ export default function TentangPage() {
             >
               {isKopi
                 ? "Berdasarkan identifikasi permasalahan pascapanen Biji Kopi, terdapat tiga masalah utama:"
-                : "Berdasarkan identifikasi permasalahan pengolahan gula kelapa, terdapat dua masalah utama: penyaringan nira dan proses pembuatan gula"}
+                : "Berdasarkan identifikasi permasalahan pengolahan gula kelapa, terdapat dua masalah utama:"}
             </p>
 
             {/* Timeline */}
