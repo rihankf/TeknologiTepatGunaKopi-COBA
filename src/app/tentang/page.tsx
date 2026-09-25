@@ -127,8 +127,8 @@ export default function TentangPage() {
                     <h3>Penyaringan</h3>
                     <p style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.6 }}>
                       Nira kelapa yang baru ditampung mengandung kotoran fisik seperti serangga dan serat bunga.
-                      Penyaringan manual menggunakan kain biasa tidak mampu menyaring partikel halus,
-                      mempengaruhi kejernihan dan kualitas akhir gula kelapa.
+                      Penyaringan manual menggunakan kain biasa tidak mampu menyaring partikel halus
+                      memengaruhi kejernihan, dan kualitas akhir gula kelapa.
                     </p>
                   </div>
                 </div>
