@@ -47,7 +47,7 @@ export default function TentangPage() {
               }}
             >
               {isKopi
-                ? "Berdasarkan identifikasi permasalahan pascapanen Biji Kopi, terdapat tiga masalah utama: pengeringan, pengukuran kadar air, dan pemilahan kualitas biji"
+                ? "Berdasarkan identifikasi permasalahan pascapanen Biji Kopi, terdapat tiga masalah utama:"
                 : "Berdasarkan identifikasi permasalahan pengolahan gula kelapa, terdapat dua masalah utama: penyaringan nira dan proses pembuatan gula"}
             </p>
 
@@ -255,7 +255,7 @@ export default function TentangPage() {
                 <p>
                   {isKopi
                     ? <>Mengidentifikasi kebutuhan dan permasalahan <i>stakeholder</i> melalui wawancara serta penggalian informasi dari petani, pelaku usaha, dan pihak terkait dalam rantai pasok Biji Kopi</>
-                    : "Mengidentifikasi kebutuhan dan permasalahan pengrajin gula kelapa melalui wawancara serta observasi langsung di sentra produksi gula kelapa."}
+                    : "Mengidentifikasi kebutuhan dan permasalahan pengrajin gula kelapa melalui wawancara serta observasi langsung di sentra produksi gula kelapa"}
                 </p>
               </div>
               <div className="objective-card">
@@ -272,7 +272,7 @@ export default function TentangPage() {
                 <p>
                   {isKopi
                     ? "Melakukan survei terhadap teknologi alat panen Biji Kopi yang tersedia di pasaran dari yang paling sederhana hingga yang canggih lengkap dengan spesifikasi dan harga"
-                    : "Melakukan survei terhadap teknologi alat pengolahan gula kelapa yang tersedia di pasaran, mulai dari alat penyaringan hingga mesin cetak modern."}
+                    : "Melakukan survei terhadap teknologi alat pengolahan gula kelapa yang tersedia di pasaran, mulai dari alat penyaringan hingga mesin cetak modern"}
                 </p>
               </div>
               <div className="objective-card">
