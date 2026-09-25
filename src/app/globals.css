@@ -1281,10 +1281,10 @@ body:has(.not-found) .site-header {
   width: 64px;
   height: 64px;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  background: transparent;
 }
 .commodity-card:not(.commodity-active) .commodity-icon {
-  background: var(--cream);
+  background: transparent;
 }
 .commodity-info h3 {
   font: 700 18px "Montserrat", sans-serif;

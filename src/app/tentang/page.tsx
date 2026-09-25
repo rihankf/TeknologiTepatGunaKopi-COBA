@@ -197,9 +197,9 @@ export default function TentangPage() {
                       Ketiga hal tersebut menjadi bagian penting karena menentukan kondisi biji sebelum masuk ke tahap pengolahan berikutnya.
                     </p>
                     <p>
-                      Proses pengeringan masih banyak mengandalkan sinar matahari dengan cara menghamparkan Biji Kopi secara langsung, sehingga sangat dipengaruhi oleh cuaca, keterbatasan lahan, kapasitas pengeringan, dan biaya fasilitas seperti greenhouse atau sun dryer.
+                      Proses pengeringan masih banyak mengandalkan sinar matahari dengan cara menghamparkan Biji Kopi secara langsung, sehingga sangat dipengaruhi oleh cuaca, keterbatasan lahan, kapasitas pengeringan, dan biaya fasilitas seperti <i>greenhouse</i> atau <i>sun dryer</i>.
                       Pada musim hujan, kadar air Biji Kopi lebih sulit diturunkan hingga sekitar 10–11%. Sementara itu, alat pengukur kadar air yang tersedia masih relatif mahal, sehingga sebagian petani mengandalkan sentuhan atau pengalaman untuk memperkirakan kondisi biji.
-                      Cara ini kurang akurat, terutama bagi petani baru.
+                      Cara ini kurang akurat terutama bagi petani baru.
                     </p>
                     <p>
                       Pada pemilahan kualitas, sistem kering lebih sederhana tetapi belum mudah memisahkan biji berdasarkan berat jenis, sehingga biji dapat tercampur.
@@ -236,7 +236,7 @@ export default function TentangPage() {
           style={{ paddingTop: "40px", paddingBottom: "60px" }}
         >
           <div className="container">
-            <SectionHeading title="Apa yang Ingin Kami Capai?" />
+            <SectionHeading title="Tujuan yang Ingin dicapai?" />
             <div
               className="objectives-grid"
               style={{ marginTop: "60px", gap: "20px" }}
@@ -254,7 +254,7 @@ export default function TentangPage() {
                 <h3>Identifikasi Kebutuhan</h3>
                 <p>
                   {isKopi
-                    ? "Mengidentifikasi kebutuhan dan permasalahan stakeholder melalui wawancara serta penggalian informasi dari petani, pelaku usaha, dan pihak terkait dalam rantai pasok Biji Kopi."
+                    ? <>Mengidentifikasi kebutuhan dan permasalahan <i>stakeholder</i> melalui wawancara serta penggalian informasi dari petani, pelaku usaha, dan pihak terkait dalam rantai pasok Biji Kopi</>
                     : "Mengidentifikasi kebutuhan dan permasalahan pengrajin gula kelapa melalui wawancara serta observasi langsung di sentra produksi gula kelapa."}
                 </p>
               </div>
@@ -271,7 +271,7 @@ export default function TentangPage() {
                 <h3>Survei Teknologi</h3>
                 <p>
                   {isKopi
-                    ? "Melakukan survei terhadap teknologi alat panen Biji Kopi yang tersedia di pasaran dari yang paling sederhana hingga yang canggih lengkap dengan spesifikasi dan harga."
+                    ? "Melakukan survei terhadap teknologi alat panen Biji Kopi yang tersedia di pasaran dari yang paling sederhana hingga yang canggih lengkap dengan spesifikasi dan harga"
                     : "Melakukan survei terhadap teknologi alat pengolahan gula kelapa yang tersedia di pasaran, mulai dari alat penyaringan hingga mesin cetak modern."}
                 </p>
               </div>
@@ -289,7 +289,7 @@ export default function TentangPage() {
                 <p>
                   Merekomendasikan solusi teknologi yang tepat guna bukan yang
                   paling mahal atau canggih, tetapi yang paling sesuai dengan
-                  kebutuhan.
+                  kebutuhan
                 </p>
               </div>
               <div className="objective-card">
@@ -305,7 +305,7 @@ export default function TentangPage() {
                 <h3>Katalog</h3>
                 <p>
                   Menyusun katalog lengkap berisi solusi dan usulan berdasarkan
-                  kajian.
+                  kajian
                 </p>
               </div>
             </div>

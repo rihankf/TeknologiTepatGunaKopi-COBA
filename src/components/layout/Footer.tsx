@@ -22,7 +22,7 @@ export default function Footer() {
           </Link>
           <p>
             Platform teknologi tepat guna untuk komoditas unggulan Indonesia.
-            Mengidentifikasi kebutuhan stakeholder dan merekomendasikan solusi
+            Mengidentifikasi kebutuhan <i>stakeholder</i> dan merekomendasikan solusi
             teknologi yang terjangkau dan berdampak.
           </p>
         </div>

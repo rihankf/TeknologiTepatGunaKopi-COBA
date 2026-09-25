@@ -137,11 +137,10 @@ export default function TeknologiPage() {
                   textDecoration: "none",
                 }}
               >
-                <span className="commodity-icon">🍒</span>
+                <span className="commodity-icon">☕</span>
                 <div className="commodity-info">
                   <h2>Unduh Katalog Biji Kopi</h2>
                 </div>
-                
               </a>
 
               <a
@@ -166,7 +165,7 @@ export default function TeknologiPage() {
             {/* Search Bar */}
             <input
               type="text"
-              placeholder="Cari produk, kategori, atau vendor..."
+              placeholder="Cari produk, kategori, atau pemasok..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="teknologi-search"

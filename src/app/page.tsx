@@ -39,7 +39,7 @@ export default function Home() {
               untuk Komoditas Unggulan
             </h1>
             <p className="hero-copy">
-              Mengidentifikasi kebutuhan stakeholder dan merekomendasikan solusi
+              Mengidentifikasi kebutuhan <i>stakeholder</i> dan merekomendasikan solusi
               teknologi untuk meningkatkan kualitas komoditas unggulan Indonesia
             </p>
             <div className="hero-actions">
