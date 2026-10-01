@@ -162,7 +162,7 @@ function TeknologiContent() {
               </a>
 
               <a
-                
+                href="/katalog-produk-gula-kelapa.pdf"
                 download
                 className="commodity-card commodity-download"
                 style={{
