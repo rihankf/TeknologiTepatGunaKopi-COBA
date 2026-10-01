@@ -17,9 +17,12 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Teknologi Tepat Guna",
+  title: {
+    default: "Teknologi Tepat Guna — Komoditas Unggulan Indonesia",
+    template: "%s",
+  },
   description:
-    "Platform sistem informasi dan katalog teknologi pasca panen Biji Kopi. Mengidentifikasi kebutuhan stakeholder dan merekomendasikan solusi yang terjangkau berdasarkan kajian mendalam.",
+    "Platform sistem informasi dan katalog teknologi pasca panen Biji Kopi dan Gula Kelapa. Mengidentifikasi kebutuhan stakeholder dan merekomendasikan solusi yang terjangkau berdasarkan kajian mendalam.",
 };
 
 export default function RootLayout({

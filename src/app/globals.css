@@ -120,7 +120,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
   font-family: "Montserrat", sans-serif;
 }
 
-
 .nav {
   display: flex;
   gap: 32px;
@@ -621,8 +620,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
   text-align: justify;
 }
 
-
-
 .catalog {
   background: var(--white);
 }
@@ -773,7 +770,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
 }
 
 
-
 .footer {
   background: var(--deep);
   color: #fff;
@@ -869,7 +865,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
   background: var(--white);
 }
 
-
 .detail-kicker {
   margin: 0 0 12px;
   text-transform: uppercase;
@@ -881,8 +876,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
 .detail-kicker.dark {
   color: var(--sand);
 }
-
-
 
 .product-story {
   padding-top: 50px;
@@ -951,9 +944,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
   gap: 28px;
 }
 
-
-
-
 .not-found {
   text-align: center;
   padding: 180px 24px 120px;
@@ -969,7 +959,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
 }
 
 body:has(.product-page) .site-header,
-body:has(.article-page) .site-header,
 body:has(.inner-page) .site-header,
 body:has(.not-found) .site-header {
   background: var(--deep);
@@ -1097,12 +1086,6 @@ body:has(.not-found) .site-header {
 .commodity-download:hover {
   box-shadow: 0 14px 45px rgba(0, 0, 0, 0.25);
   transform: translateY(-6px);
-}
-.commodity-download .commodity-badge {
-  transition: transform 0.3s ease;
-}
-.commodity-download:hover .commodity-badge {
-  transform: translateY(2px);
 }
 
 /* ── Teknologi Page: Sidebar Filter Layout ── */
@@ -1301,8 +1284,6 @@ body:has(.not-found) .site-header {
   font-size: 12px;
   padding: 10px 20px;
 }
-
-
 
 @media (max-width: 900px) {
   .site-header {
@@ -1548,7 +1529,6 @@ body:has(.not-found) .site-header {
     gap: 35px;
   }
 
-
   .product-story {
     padding-top: 60px;
     padding-bottom: 65px;
@@ -1574,8 +1554,6 @@ body:has(.not-found) .site-header {
   .related-grid {
     grid-template-columns: 1fr;
   }
-
-
 
   .whatsapp {
     width: 48px;

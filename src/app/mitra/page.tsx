@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import FloatingContact from "@/components/ui/FloatingContact";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Mitra Kerjasama — Teknologi Tepat Guna",
+  description:
+    "BPVP Bandung Barat sebagai mitra kerjasama dalam proyek teknologi tepat guna untuk komoditas unggulan Indonesia.",
+};
 
 export default function MitraPage() {
   return (

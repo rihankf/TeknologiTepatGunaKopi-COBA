@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -8,6 +9,22 @@ import CatalogCard from "@/components/ui/CatalogCard";
 import { kopiTools, gulaKelapaTools } from "@/data";
 
 const allTools = [...kopiTools, ...gulaKelapaTools];
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const tool = allTools.find((item) => item.slug === slug);
+  if (!tool) {
+    return { title: "Produk Tidak Ditemukan — Teknologi Tepat Guna" };
+  }
+  return {
+    title: `${tool.name} — Teknologi Tepat Guna`,
+    description: tool.description,
+  };
+}
 
 export function generateStaticParams() {
   return allTools.map(({ slug }) => ({ slug }));
