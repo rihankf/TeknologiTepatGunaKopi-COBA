@@ -27,7 +27,7 @@ const commodities: {
     id: "gula-kelapa",
     icon: "🥥",
     label: "Gula Kelapa",
-    description: "Teknologi pengolahan gula kelapa: penyaringan & pembuatan",
+    description: "Teknologi pengolahan gula kelapa: penyaringan & pemasakan",
     gradient: "linear-gradient(135deg, #362706 0%, #7c3a12 100%)",
     accentColor: "#ff9a00",
   },

@@ -11,7 +11,7 @@ import { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 
 const KOPI_CATEGORIES = ["Pengeringan", "Pengukuran", "Pemilahan"];
-const GULA_CATEGORIES = ["Penyaringan", "Pembuatan"];
+const GULA_CATEGORIES = ["Penyaringan", "Pemasakan"];
 const ALL_TOOLS = [...kopiTools, ...gulaKelapaTools];
 
 /** Parse price string like "Rp. 19.560.000.-" into a number */

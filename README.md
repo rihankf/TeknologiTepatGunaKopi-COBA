@@ -5,13 +5,13 @@
 Merupakan platform rekomendasi solusi teknologi pasca panen untuk komoditas **Biji Kopi** dan **Gula Kelapa**. Menyajikan daftar alat yang dilengkapi dengan spesifikasi lengkap, rentang harga, serta link pembelian.
 
 - Pada **Biji Kopi**, difokuskan pada tahap pengeringan, pengukuran, dan pemilahan.
-- Pada **Gula Kelapa**, difokuskan pada tahap penyaringan dan pembuatan.
+- Pada **Gula Kelapa**, difokuskan pada tahap penyaringan dan pemasakan.
   Platform ini dibangun berdasarkan identifikasi masalah petani dan ditujukan untuk merekomendasikan alat tepat guna untuk meningkatkan kualitas produksi biji kopi dan gula kelapa.
 
 ## Fitur
 
 - Pencarian dan pemfilteran katalog alat berdasarkan komoditas (Biji Kopi & Gula Kelapa).
-- Filter berdasarkan tahapan proses (misal: pengeringan, pengukuran, pemilahan untuk biji kopi; penyaringan, pembuatan untuk gula kelapa).
+- Filter berdasarkan tahapan proses (misal: pengeringan, pengukuran, pemilahan untuk biji kopi; penyaringan, pemasakan untuk gula kelapa).
 - Detail spesifikasi lengkap tiap alat beserta harga.
 - Unduh katalog produk ke format PDF (katalog biji kopi dan katalog gula kelapa).
 - Link pembelian produk.

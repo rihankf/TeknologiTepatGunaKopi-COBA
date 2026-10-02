@@ -92,7 +92,7 @@ export default function HomeContent() {
             >
               {isKopi
                 ? "Pembahasan berfokus pada kendala utama petani yaitu pada proses pascapanen, terutama pada tahap pengeringan, pengukuran kadar air, dan pemilahan kualitas Biji Kopi"
-                : "Pembahasan berfokus pada kendala utama pengrajin gula kelapa dalam proses penyaringan nira dan pembuatan gula yang berkualitas konsisten"}
+                : "Pembahasan berfokus pada kendala utama pengrajin gula kelapa dalam proses penyaringan nira dan pemasakan gula yang berkualitas konsisten"}
             </p>
             <div
               className="problems-grid"
@@ -123,7 +123,7 @@ export default function HomeContent() {
             <p className="catalog-subtitle">
               {isKopi
                 ? "Berdasarkan identifikasi masalah, berikut adalah teknologi tepat guna yang kami rekomendasikan. Setiap alat telah melalui survei harga dan perbandingan spesifikasi di pasaran."
-                : "Berikut adalah teknologi tepat guna untuk pengolahan gula kelapa yang kami rekomendasikan, mencakup alat penyaringan nira dan pembuatan gula."}
+                : "Berikut adalah teknologi tepat guna untuk pengolahan gula kelapa yang kami rekomendasikan, mencakup alat penyaringan nira dan pemasakan gula."}
             </p>
             <div className="catalog-grid">
               {currentTools.slice(0, 5).map((tool) => (

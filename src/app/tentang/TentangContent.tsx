@@ -137,7 +137,7 @@ export default function TentangContent() {
                   </div>
                   <div className="timeline-content">
                     <span className="timeline-period">Tahap 2</span>
-                    <h3>Pembuatan</h3>
+                    <h3>Pemasakan</h3>
                     <p style={{ fontSize: "13px", color: "var(--muted)", lineHeight: 1.6 }}>
                       Proses pengadukan masih dilakukan secara manual, sedangkan pemasakan menggunakan kayu bakar sehingga suhu yang dihasilkan tidak stabil. 
                       Pemasakan berlangsung sekitar 2–3 jam dengan suhu maksimal 110°C, dan pengadukan dilakukan secara bertahap saat nira mulai mengental.
