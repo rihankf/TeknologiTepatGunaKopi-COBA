@@ -11,7 +11,7 @@ export const gulaKelapaProblems: Problem[] = [
   },
   {
     icon: "🍯",
-    title: "Proses Pembuatan Masih Tradisional",
+    title: "Proses Pemasakan Masih Tradisional",
     description:
       "Proses pengadukan masih dilakukan secara manual menggunakan tenaga manusia, sedangkan pemasakan menggunakan kayu bakar sehingga suhu selama pemasakan sulit dikendalikan secara stabil. Proses pemasakan berlangsung sekitar 2–3 jam dengan suhu maksimal 110°C, kemudian pengadukan dilakukan secara bertahap ketika nira mulai mengental.",
     impact:
