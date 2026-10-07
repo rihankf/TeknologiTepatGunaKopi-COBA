@@ -57,27 +57,7 @@ html {
   scroll-margin-top: 100px;
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
+/* Removed @keyframes fadeInUp and scaleIn — scroll-reveal handles these */
 
 /* ── Scroll Reveal Animations ── */
 .reveal {
@@ -357,7 +337,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
 .hero-content {
   position: relative;
   padding-top: 40px;
-  animation: fadeInUp 0.8s ease-out;
 }
 
 .eyebrow,
@@ -483,8 +462,8 @@ body:has(.home-page) .site-header:not(.scrolled) {
   transition: opacity 0.3s ease;
 }
 .problem-card:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-sm);
   border-color: var(--sand);
 }
 .problem-card:hover::after {
@@ -496,7 +475,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: scaleIn 0.5s ease-out;
 }
 .problem-card h3 {
   font:
@@ -611,8 +589,8 @@ body:has(.home-page) .site-header:not(.scrolled) {
   text-align: center;
 }
 .objective-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 .objective-number {
   position: absolute;
@@ -695,8 +673,8 @@ body:has(.home-page) .site-header:not(.scrolled) {
   transition: var(--transition);
 }
 .catalog-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
   border-color: var(--sand);
 }
 .catalog-image {
@@ -707,10 +685,6 @@ body:has(.home-page) .site-header:not(.scrolled) {
 }
 .catalog-image img {
   object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.catalog-card:hover .catalog-image img {
-  transform: scale(1.06);
 }
 
 .catalog-body {
@@ -772,21 +746,12 @@ body:has(.home-page) .site-header:not(.scrolled) {
   background: var(--sand);
   border-color: var(--sand);
   box-shadow: 0 0 0 8px rgba(201, 168, 76, 0.2);
-  animation: pulse 2s infinite;
 }
 .timeline-active .timeline-month {
   color: var(--deep);
 }
 
-@keyframes pulse {
-  0%,
-  100% {
-    box-shadow: 0 0 0 6px rgba(201, 168, 76, 0.2);
-  }
-  50% {
-    box-shadow: 0 0 0 14px rgba(201, 168, 76, 0.08);
-  }
-}
+/* Removed @keyframes pulse (infinite loop) — replaced with static glow */
 
 .timeline-content h3 {
   font:
